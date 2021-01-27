@@ -1,4 +1,4 @@
-nrfx_saadc_simple_low_power_app_timer example
+nrfx_saadc_simple_low_power_app_timer example TESTING
 ==================
 
  This project contains code examples that shows how to use the nrfx SAADC driver with API v2. The nrfx_saadc driver API was completely rewritten for nrfx v2.0.0 release, but this release has not been supported in nRF5 SDK. With the release of SDK 17.0.0, the new driver API was backported from nrfx v2.x.0 to nrfx v1.8.4. There are no examples of how to use this driver API in the nRF5 SDK itself, but some simple examples are provided in the nRF5 SDK v17.0.0 migration guide (https://infocenter.nordicsemi.com/topic/sdk_nrf5_v17.0.0/migration.html#migr_lib_nrfx) / nrfx GitHub Wiki page (https://github.com/NordicSemiconductor/nrfx/wiki/nrfx-1.8.1-to-2.0.0#saadc-1). This example is based on the example "Example code for SAADC in simple mode with IRQs", but is adapted to work with nRF5 SDK and implements some additional features.
